@@ -13,4 +13,17 @@ Fungsi analyze_algorithm() digunakan untuk menampilkan analisis algoritma pengur
 
 Fungsi main() merupakan fungsi utama yang akan dijalankan saat program dijalankan. Fungsi ini mendefinisikan array arr yang akan diurutkan dan menampilkan pilihan algoritma pengurutan kepada pengguna. Pilihan yang tersedia adalah Bubble Sort, Insertion Sort, dan Analisis Algoritma. Jika pengguna memilih Bubble Sort atau Insertion Sort, array akan diurutkan menggunakan algoritma yang dipilih dan hasilnya akan ditampilkan. Jika pengguna memilih Analisis Algoritma, penjelasan mengenai kompleksitas waktu algoritma pengurutan akan ditampilkan. Jika pilihan tidak valid, pesan kesalahan akan ditampilkan.
 
-Selain itu, kode program juga mencakup inisialisasi dan eksekusi fungsi main() jika file tersebut dieksekusi langsung.
+Selain itu, kode program juga mencakup inisialisasi dan eksekusi fungsi main() jika file tersebut dieksekusi langsung. 
+
+
+Pada program tersebut, terdapat pilihan algoritma pengurutan antara Bubble Sort dan Insertion Sort. Pengguna dapat memilih algoritma yang ingin digunakan dan array akan diurutkan sesuai pilihan tersebut. Hasil pengurutan beserta waktu eksekusi akan ditampilkan. Selain itu, terdapat fungsi untuk menampilkan iterasi pengurutan, analisis kompleksitas waktu, dan array sebelum dan setelah pengurutan.
+
+Analisis algoritma TSP dan Dijkstra:
+- Algoritma TSP menggunakan pendekatan rekursif dengan memoization untuk mencari jalur terpendek dalam TSP. Algoritma ini mencoba semua kemungkinan permutasi dari vertex yang dikunjungi dan mencari jalur terpendek. Fungsi tsp_algorithm digunakan untuk implementasi algoritma ini.
+- Algoritma Dijkstra digunakan untuk mencari jalur terpendek dalam graf. Algoritma ini bekerja dengan memperbarui jarak terpendek ke setiap vertex yang belum dikunjungi secara iteratif. Fungsi dijkstra_algorithm digunakan untuk implementasi algoritma ini.
+
+Program juga mencakup fungsi get_graph_from_user() yang meminta input pengguna untuk informasi graf, seperti jumlah vertex dan matriks adjacency.
+
+Fungsi main() merupakan fungsi utama program yang menampilkan informasi pembuat, meminta pilihan algoritma dari pengguna, dan menjalankan algoritma yang dipilih sesuai input pengguna. Hasil pencarian jalur terpendek atau jarak terpendek beserta waktu komputasi akan ditampilkan. Program juga memiliki mekanisme untuk keluar dari program jika pengguna memilih opsi keluar atau menampilkan pesan kesalahan jika pilihan tidak valid.
+
+Program ini memberikan pengguna kemudahan dalam memilih algoritma pengurutan dan menemukan jalur terpendek dalam TSP atau jarak terpendek dalam graf menggunakan algoritma Dijkstra.
